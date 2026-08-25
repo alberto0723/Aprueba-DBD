@@ -10977,6 +10977,24 @@
       ],
       "correctLetter": "A",
       "explicacion": "**Resum Ràpid:**  \nSi el sistema és realment *només de lectura*, no hi ha escriptures ni actualitzacions concurrents que puguin generar conflictes, ni tampoc canvis a desfer o refer després d’una fallada. Per això, en aquest cas ideal, es poden prescindir tant del control de concurrència com de la recuperació.\n\n**Explicació Detallada:**  \nEl control de concurrència serveix per coordinar lectures i escriptures concurrents; si només hi ha lectures, no apareixen anomalies d’aïllament ni conflictes d’actualització. Igualment, la recuperació (WAL, redo/undo) és necessària quan hi ha modificacions persistents; sense escriptures, no hi ha estat nou a reconstruir.\n\n**Anàlisi d'opcions falses:**  \n**B) Fals:** Incorrecta, perquè assumeix que calen aquests mecanismes fins i tot sense escriptures. En un entorn estrictament read-only, no hi ha ni conflictes de concurrència ni canvis persistents a recuperar."
+    },
+    {
+      "id": "q_515",
+      "number": 515,
+      "topicId": "8.2",
+      "text": "L'optimitzador semàntic sempre troba la millor manera de rescriure una consulta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cert"
+        },
+        {
+          "letter": "B",
+          "text": "Fals"
+        }
+      ],
+      "correctLetter": "B",
+      "explicacion": "**Resum Ràpid**  \nÉs fals perquè l'optimització semàntica aplica regles lògiques i restriccions d'integritat conegudes, però no garanteix trobar la reescriptura òptima absoluta per a qualsevol consulta a causa de les limitacions de les heurístiques utilitzades.\n\n**Explicació Detallada**  \nL'optimització semàntica simplifica la consulta transformant-la segons la lògica i les restriccions de la BD (com eliminar predicats impossibles). Tanmateix, només pot aplicar un conjunt finit de regles i no explora totes les equivalències possibles. Per tant, tot i que redueix el cost, no es pot afirmat de forma absoluta que trobi *sempre* la millor reescriptura possible.\n\n**Anàlisi d'opcions falses**  \n* **A) Cert**: És incorrecte perquè cap fase de l'optimitzador garanteix trobar la millor reescriptura en el 100% dels casos, ja que l'espai de cerca pot ser intractable i es basa en heurístiques."
     }
   ]
 }
