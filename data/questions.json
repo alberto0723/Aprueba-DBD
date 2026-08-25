@@ -214,235 +214,241 @@
       "id": "5.4",
       "title": "Semi-structured Database Model",
       "section": "5 NOSQL",
-      "sortOrder": 35
+      "sortOrder": 36
     },
     {
       "id": "5.5",
       "title": "JSON Data Type",
       "section": "5 NOSQL",
-      "sortOrder": 36
+      "sortOrder": 37
+    },
+    {
+      "id": "5.6",
+      "title": "Managing Large Arrays",
+      "section": "5 NOSQL",
+      "sortOrder": 35
     },
     {
       "id": "6.1",
       "title": "View Definition and Problems",
       "section": "6 Views",
-      "sortOrder": 37
+      "sortOrder": 38
     },
     {
       "id": "6.2",
       "title": "View Expansion",
       "section": "6 Views",
-      "sortOrder": 38
+      "sortOrder": 39
     },
     {
       "id": "6.3",
       "title": "Update Through Views",
       "section": "6 Views",
-      "sortOrder": 39
+      "sortOrder": 40
     },
     {
       "id": "6.4",
       "title": "View Updating",
       "section": "6 Views",
-      "sortOrder": 40
+      "sortOrder": 41
     },
     {
       "id": "6.5",
       "title": "Query Rewriting",
       "section": "6 Views",
-      "sortOrder": 41
+      "sortOrder": 42
     },
     {
       "id": "6.6",
       "title": "Materialized View Selection",
       "section": "6 Views",
-      "sortOrder": 42
+      "sortOrder": 43
     },
     {
       "id": "6.7",
       "title": "Example of Materialize View Selection",
       "section": "6 Views",
-      "sortOrder": 43
+      "sortOrder": 44
     },
     {
       "id": "7.2",
       "title": "Catalog",
       "section": "7 Physical Design",
-      "sortOrder": 44
+      "sortOrder": 45
     },
     {
       "id": "7.3",
       "title": "Access Structures",
       "section": "7 Physical Design",
-      "sortOrder": 45
+      "sortOrder": 46
     },
     {
       "id": "7.4",
       "title": "Size of Structures",
       "section": "7 Physical Design",
-      "sortOrder": 46
+      "sortOrder": 47
     },
     {
       "id": "7.5",
       "title": "Access Costs",
       "section": "7 Physical Design",
-      "sortOrder": 47
+      "sortOrder": 48
     },
     {
       "id": "7.6",
       "title": "Index Choice",
       "section": "7 Physical Design",
-      "sortOrder": 48
+      "sortOrder": 49
     },
     {
       "id": "8.1",
       "title": "Optimization Phases",
       "section": "8 Query Optimization Phases: Semantic, Syntactic and Physical",
-      "sortOrder": 49
+      "sortOrder": 50
     },
     {
       "id": "8.2",
       "title": "Semantic Optimization",
       "section": "8 Query Optimization Phases: Semantic, Syntactic and Physical",
-      "sortOrder": 50
+      "sortOrder": 51
     },
     {
       "id": "8.3",
       "title": "Syntactic Optimization",
       "section": "8 Query Optimization Phases: Semantic, Syntactic and Physical",
-      "sortOrder": 51
+      "sortOrder": 52
     },
     {
       "id": "8.4",
       "title": "Equivalence Rules",
       "section": "8 Query Optimization Phases: Semantic, Syntactic and Physical",
-      "sortOrder": 52
+      "sortOrder": 53
     },
     {
       "id": "8.5",
       "title": "Physical Optimization",
       "section": "8 Query Optimization Phases: Semantic, Syntactic and Physical",
-      "sortOrder": 53
+      "sortOrder": 54
     },
     {
       "id": "9.1",
       "title": "Intermediate Results",
       "section": "9 Query Optimization Costs: Selection, Sorting and Projection",
-      "sortOrder": 54
+      "sortOrder": 55
     },
     {
       "id": "9.2",
       "title": "Selection",
       "section": "9 Query Optimization Costs: Selection, Sorting and Projection",
-      "sortOrder": 55
+      "sortOrder": 56
     },
     {
       "id": "9.3",
       "title": "Sorting",
       "section": "9 Query Optimization Costs: Selection, Sorting and Projection",
-      "sortOrder": 56
+      "sortOrder": 57
     },
     {
       "id": "9.4",
       "title": "Projection",
       "section": "9 Query Optimization Costs: Selection, Sorting and Projection",
-      "sortOrder": 57
+      "sortOrder": 58
     },
     {
       "id": "10.1",
       "title": "Clustered Structure",
       "section": "10 Query Optimization Costs: Join",
-      "sortOrder": 58
+      "sortOrder": 59
     },
     {
       "id": "10.2",
       "title": "Nested Loops",
       "section": "10 Query Optimization Costs: Join",
-      "sortOrder": 59
+      "sortOrder": 60
     },
     {
       "id": "10.3",
       "title": "Hash-Join",
       "section": "10 Query Optimization Costs: Join",
-      "sortOrder": 60
+      "sortOrder": 61
     },
     {
       "id": "10.4",
       "title": "Sort-Match",
       "section": "10 Query Optimization Costs: Join",
-      "sortOrder": 61
+      "sortOrder": 62
     },
     {
       "id": "10.5",
       "title": "Pipelining",
       "section": "10 Query Optimization Costs: Join",
-      "sortOrder": 62
+      "sortOrder": 63
     },
     {
       "id": "11.1",
       "title": "Tablespaces",
       "section": "11 Parametrization and Tuning",
-      "sortOrder": 63
+      "sortOrder": 64
     },
     {
       "id": "11.2",
       "title": "Parameters",
       "section": "11 Parametrization and Tuning",
-      "sortOrder": 64
+      "sortOrder": 65
     },
     {
       "id": "11.3",
       "title": "Bitmap Indexes",
       "section": "11 Parametrization and Tuning",
-      "sortOrder": 65
+      "sortOrder": 66
     },
     {
       "id": "11.4",
       "title": "Tuning",
       "section": "11 Parametrization and Tuning",
-      "sortOrder": 66
+      "sortOrder": 67
     },
     {
       "id": "11.5",
       "title": "Example of Index Selection",
       "section": "11 Parametrization and Tuning",
-      "sortOrder": 67
+      "sortOrder": 68
     },
     {
       "id": "12.1",
       "title": "Isolation",
       "section": "12 Transactions",
-      "sortOrder": 68
+      "sortOrder": 69
     },
     {
       "id": "12.2",
       "title": "Multi-version Concurrency Control",
       "section": "12 Transactions",
-      "sortOrder": 69
+      "sortOrder": 70
     },
     {
       "id": "12.3",
       "title": "Atomicity and Durability",
       "section": "12 Transactions",
-      "sortOrder": 70
+      "sortOrder": 71
     },
     {
       "id": "12.4",
       "title": "Transaction Chopping",
       "section": "12 Transactions",
-      "sortOrder": 71
+      "sortOrder": 72
     },
     {
       "id": "12.5",
       "title": "Alternative Transaction Manager Architectures",
       "section": "12 Transactions",
-      "sortOrder": 72
+      "sortOrder": 73
     },
     {
       "id": "7.1",
       "title": "7.1",
       "section": "7 ",
-      "sortOrder": 73
+      "sortOrder": 74
     }
   ],
   "questions": [
@@ -7124,7 +7130,7 @@
       "id": "q_320",
       "number": 320,
       "topicId": "8.2",
-      "text": "L’optimització semàntica pot fer més curta la clàusulaWHERE.",
+      "text": "L’optimització semàntica pot fer més curta la clàusula WHERE.",
       "options": [
         {
           "letter": "A",
@@ -7142,7 +7148,7 @@
       "id": "q_321",
       "number": 321,
       "topicId": "8.2",
-      "text": "L’optimització semàntica pot fer més llarga la clàusulaWHERE.",
+      "text": "L’optimització semàntica pot fer més llarga la clàusula WHERE.",
       "options": [
         {
           "letter": "A",
