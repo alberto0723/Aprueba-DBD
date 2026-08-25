@@ -5,6 +5,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ensureDataLoaded, type BootstrapResult } from "../repos";
+import { DATA_VERSION } from "../db/bootstrap"
 
 const GITHUB_REPO = "https://github.com/HugoNienhausen/Aprueba-DBD";
 
@@ -73,7 +74,7 @@ export default function HomeScreen() {
         </div>
 
         <p className="home__meta muted">
-          Versió de les dades XXX · {result.questionCount} preguntes
+          Versió {DATA_VERSION} de les dades · {result.questionCount} preguntes
         </p>
       </div>
 
