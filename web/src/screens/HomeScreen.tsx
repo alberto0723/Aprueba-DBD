@@ -73,7 +73,7 @@ export default function HomeScreen() {
         </div>
 
         <p className="home__meta muted">
-          {result.topicCount} pàgines del PDF · {result.questionCount} preguntes
+          Versió de les dades XXX · {result.questionCount} preguntes
         </p>
       </div>
 
