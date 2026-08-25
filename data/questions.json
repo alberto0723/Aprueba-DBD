@@ -1304,7 +1304,7 @@
       "id": "q_40",
       "number": 40,
       "topicId": "1.4",
-      "text": "Utilitzar un zero és equivalent a utilitzar un valornull, sempre que el primer no pertanyi al domini de l’atribut.",
+      "text": "Utilitzar un zero és equivalent a utilitzar un valor null, sempre que el primer NO pertanyi al domini de l’atribut.",
       "options": [
         {
           "letter": "A",
@@ -1454,7 +1454,7 @@
       "id": "q_47",
       "number": 47,
       "topicId": "1.4",
-      "text": "Si a l’entrada de l’operació algebraica d’intersecció hi ha dues files (una a cada taula) que només tenen valornulla tots els seus atributs, a la sortida no apareixerà aquesta fila.",
+      "text": "Si a l’entrada de l’operació algebraica d’intersecció hi ha dues files (una a cada taula) que només tenen valornulla tots els seus atributs, a la sortida NO apareixerà aquesta fila.",
       "options": [
         {
           "letter": "A",
@@ -1472,7 +1472,7 @@
       "id": "q_48",
       "number": 48,
       "topicId": "1.4",
-      "text": "Si a l’entrada de l’operació algebraica de diferència hi ha dues files (una a cada taula) que només tenen valornulla tots els seus atributs, a la sortida no apareixerà aquesta fila.",
+      "text": "Si a l’entrada de l’operació algebraica de diferència hi ha dues files (una a cada taula) que només tenen valornulla tots els seus atributs, a la sortida NO apareixerà aquesta fila.",
       "options": [
         {
           "letter": "A",
@@ -1552,7 +1552,7 @@
       "id": "q_52",
       "number": 52,
       "topicId": "1.4",
-      "text": "El UNIQUE permet tenir més d’un valor nul.",
+      "text": "El UNIQUE permet tenir més d’un valor null.",
       "options": [
         {
           "letter": "A",
@@ -1570,7 +1570,7 @@
       "id": "q_53",
       "number": 53,
       "topicId": "1.4",
-      "text": "Sempre puc implementar una diferència indistintament amb un “NOT IN” o un “NOT EX- ISTS”.",
+      "text": "Sempre puc implementar una diferència indistintament amb un “NOT IN” o un “NOT EXISTS”.",
       "options": [
         {
           "letter": "A",
@@ -1924,7 +1924,7 @@
       "id": "q_70",
       "number": 70,
       "topicId": "2.1",
-      "text": "¿Les claus alternatives no tenen una clàusula pròpia a l’estàndard per a crear-les?",
+      "text": "¿Les claus alternatives NO tenen una clàusula pròpia a l’estàndard per a crear-les?",
       "options": [
         {
           "letter": "A",
@@ -2152,7 +2152,7 @@
       "id": "q_80",
       "number": 80,
       "topicId": "2.2",
-      "text": "El millor és sempre triar la implementació d’una associació binària que no genera mai valors null.",
+      "text": "El millor és sempre triar la implementació d’una associació binària que NO genera mai valors null.",
       "options": [
         {
           "letter": "A",
@@ -2650,7 +2650,7 @@
       "id": "q_105",
       "number": 105,
       "topicId": "3.1",
-      "text": "Les anomalies a les que fa referència la normalització no afecten a les consultes.",
+      "text": "Les anomalies a les que fa referència la normalització NO afecten a les consultes.",
       "options": [
         {
           "letter": "A",
@@ -2738,7 +2738,7 @@
       "id": "q_109",
       "number": 109,
       "topicId": "3.2",
-      "text": "El producte cartesià de dos conjunts és també un tipus de relació, però no funcional.",
+      "text": "El producte cartesià de dos conjunts és també un tipus de relació, però NO funcional.",
       "options": [
         {
           "letter": "A",
@@ -2906,7 +2906,7 @@
       "id": "q_117",
       "number": 117,
       "topicId": "3.3",
-      "text": "Una relació està en 2NF si totes les dependències funcionals cap als atributs que no formen part d’una clau són plenes.",
+      "text": "Una relació està en 2NF si totes les dependències funcionals cap als atributs que NO formen part d’una clau són plenes.",
       "options": [
         {
           "letter": "A",
@@ -2924,7 +2924,7 @@
       "id": "q_118",
       "number": 118,
       "topicId": "3.3",
-      "text": "Si una relació que no està en 2FN i volem que ho estigui, el que hem de fer és dividir els seus atributs en subconjunts disjunts tant com calgui fins que ho estigui.",
+      "text": "Si una relació NO està en 2FN i volem que ho estigui, el que hem de fer és dividir els seus atributs en subconjunts disjunts tant com calgui fins que ho estigui.",
       "options": [
         {
           "letter": "A",
@@ -2960,7 +2960,7 @@
       "id": "q_120",
       "number": 120,
       "topicId": "3.3",
-      "text": "Si una relació que no està en 3FN i volem que ho estigui, el que hem de fer és dividir els seus atributs en subconjunts disjunts tant com calgui fins que ho estigui, però deixant en cada divisió com clau forana entre les parts el determinant que provoca la violacio de la forma normal.",
+      "text": "Si una relació NO està en 3FN i volem que ho estigui, el que hem de fer és dividir els seus atributs en subconjunts disjunts tant com calgui fins que ho estigui, però deixant en cada divisió com clau forana entre les parts el determinant que provoca la violacio de la forma normal.",
       "options": [
         {
           "letter": "A",
@@ -3004,7 +3004,7 @@
       "id": "q_122",
       "number": 122,
       "topicId": "3.3",
-      "text": "BCNF no permet tenir claus alternatives.",
+      "text": "BCNF NO permet tenir claus alternatives.",
       "options": [
         {
           "letter": "A",
@@ -3022,7 +3022,7 @@
       "id": "q_123",
       "number": 123,
       "topicId": "3.3",
-      "text": "La BCNF es va definir perquè 2NF i 3NF no garanteixen l’absència total d’anomalies.",
+      "text": "La BCNF es va definir perquè 2NF i 3NF NO garanteixen l’absència total d’anomalies.",
       "options": [
         {
           "letter": "A",
@@ -3368,7 +3368,7 @@
       "id": "q_140",
       "number": 140,
       "topicId": "3.6",
-      "text": "La 4NF no permet tenir dependències multivaluades.",
+      "text": "La 4NF NO permet tenir dependències multivaluades.",
       "options": [
         {
           "letter": "A",
@@ -4194,7 +4194,7 @@
       "id": "q_177",
       "number": 177,
       "topicId": "4.6",
-      "text": "Un esquema en estrella no pot tenir més de quatre dimensions.",
+      "text": "Un esquema en estrella NO pot tenir més de quatre dimensions.",
       "options": [
         {
           "letter": "A",
@@ -4610,7 +4610,7 @@
       "id": "q_197",
       "number": 197,
       "topicId": "5.2",
-      "text": "La independència física, d’acord amb l’arquitectura ANSI/SPARC, garanteix que un canvi en l’esquema intern no afectara a les taules de la base de dades.",
+      "text": "La independència física, d’acord amb l’arquitectura ANSI/SPARC, garanteix que un canvi en l’esquema intern NO afectarà a les taules de la base de dades.",
       "options": [
         {
           "letter": "A",
@@ -4628,7 +4628,7 @@
       "id": "q_198",
       "number": 198,
       "topicId": "5.2",
-      "text": "La independència lògica, d’acord amb l’arquitectura ANSI/SPARC, garanteix que un canvi en les vistes no afectara a les taules de la base de dades.",
+      "text": "La independència lògica, d’acord amb l’arquitectura ANSI/SPARC, garanteix que un canvi en les vistes NO afectarà a les taules de la base de dades.",
       "options": [
         {
           "letter": "A",
@@ -4646,7 +4646,7 @@
       "id": "q_199",
       "number": 199,
       "topicId": "5.2",
-      "text": "La independència lògica, d’acord amb l’arquitectura ANSI/SPARC, garanteix que un canvi en una taula no afectara a cap vista de la base de dades, tret que el canvi afecti els atributs o taules utilitzats en la vista.",
+      "text": "La independència lògica, d’acord amb l’arquitectura ANSI/SPARC, garanteix que un canvi en una taula NO afectarà a cap vista de la base de dades, tret que el canvi afecti els atributs o taules utilitzats en la vista.",
       "options": [
         {
           "letter": "A",
@@ -5094,7 +5094,7 @@
       "id": "q_223",
       "number": 223,
       "topicId": "6.1",
-      "text": "¿Quina de les següents possibilitats no existeix en els SGBDs relacionals?",
+      "text": "¿Quina de les següents possibilitats NO existeix en els SGBDs relacionals?",
       "options": [
         {
           "letter": "A",
@@ -5536,7 +5536,7 @@
       "id": "q_242",
       "number": 242,
       "topicId": "6.3",
-      "text": "Els SGBDs sempre permeten modificar una taula a través d’una vista que no conté cap altra taula.",
+      "text": "Els SGBDs sempre permeten modificar una taula a través d’una vista que NO conté cap altra taula.",
       "options": [
         {
           "letter": "A",
@@ -6010,7 +6010,7 @@
       "id": "q_265",
       "number": 265,
       "topicId": "6.6",
-      "text": "Si hem utilitzat un algorisme greedy per seleccionar-les, ja no hem de canviar mai el conjunt de vistes que hem decidit materialitzar.",
+      "text": "Si hem utilitzat un algorisme greedy per seleccionar-les, ja NO hem de canviar mai el conjunt de vistes que hem decidit materialitzar.",
       "options": [
         {
           "letter": "A",
@@ -6028,7 +6028,7 @@
       "id": "q_266",
       "number": 266,
       "topicId": "6.7",
-      "text": "Podem estimar la cardinalitat del resultat d’una consulta amb agregats sobre la taulaT(a1, . . . an) com ...",
+      "text": "Podem estimar la cardinalitat del resultat d’una consulta amb agregats sobre la taula T(a1, ..., an) com ...",
       "options": [
         {
           "letter": "A",
@@ -6036,15 +6036,15 @@
         },
         {
           "letter": "B",
-          "text": "dist(a 1)·. . .·dist(a n)"
+          "text": "ndist(a1)·...·ndist(an)"
         },
         {
           "letter": "C",
-          "text": "min(|T|, dist(a 1)·. . .·dist(a n))"
+          "text": "min(|T|, ndist(a1)·...·ndist(an))"
         },
         {
           "letter": "D",
-          "text": "max(|T|, dist(a 1)·. . .·dist(a n))"
+          "text": "max(|T|, ndist(a1)·...·ndist(an))"
         }
       ],
       "correctLetter": "C",
@@ -6928,7 +6928,7 @@
       "id": "q_310",
       "number": 310,
       "topicId": "7.6",
-      "text": "Index-only query answering vol dir que el SGBD no accedirà la taula corresponent per a resoldre la consulta.",
+      "text": "Index-only query answering vol dir que el SGBD NO accedirà la taula corresponent per a resoldre la consulta.",
       "options": [
         {
           "letter": "A",
@@ -7684,23 +7684,23 @@
       "id": "q_348",
       "number": 348,
       "topicId": "8.5",
-      "text": "Quan fem encarrilament (pipelining), l’ordre de lesjoinsés ...",
+      "text": "Quan fem encarrilament (pipelining), l’ordre de les joins que dona el millor cost és ...",
       "options": [
         {
           "letter": "A",
-          "text": "Decreixent (de més selectiva a menys selectiva)"
+          "text": "... de més selectiva a menys selectiva."
         },
         {
           "letter": "B",
-          "text": "Creixent (de menys selectiva a més selectiva)"
+          "text": "... de menys selectiva a més selectiva."
         },
         {
           "letter": "C",
-          "text": "Irrellevant"
+          "text": "... desconegut a priori."
         },
         {
           "letter": "D",
-          "text": "El mateix que l’ordre dels atributs a la clau primària de la taula de fets"
+          "text": "... el mateix que l’ordre dels atributs a la clau primària de la taula de fets."
         }
       ],
       "correctLetter": "A",
@@ -8132,7 +8132,7 @@
       "id": "q_372",
       "number": 372,
       "topicId": "9.2",
-      "text": "Si després de posar el predicat lògic d’una selecció en forma normal conjuntiva una de les condicions dins d’un parèntesi no permet utilitzar cap índex, llavors no podem utilitzar-ne cap tampoc a les altres condicions dins del parèntesi.",
+      "text": "Si després de posar el predicat lògic d’una selecció en forma normal conjuntiva una de les condicions dins d’un parèntesi NO permet utilitzar cap índex, llavors no podem utilitzar-ne cap tampoc a les altres condicions dins del parèntesi.",
       "options": [
         {
           "letter": "A",
@@ -8168,7 +8168,7 @@
       "id": "q_374",
       "number": 374,
       "topicId": "9.2",
-      "text": "La resolució de predicats de selecció amb operacions de llistes de RID, fa que no haguem de fer mai cap comprovació sobre les dades.",
+      "text": "La resolució de predicats de selecció amb operacions de llistes de RID, fa que NO haguem de fer mai cap comprovació sobre les dades.",
       "options": [
         {
           "letter": "A",
@@ -8186,7 +8186,7 @@
       "id": "q_375",
       "number": 375,
       "topicId": "9.2",
-      "text": "La resolució de predicats de selecció amb operacions de llistes de RID, fa que no haguem de fer mai untable scan.",
+      "text": "La resolució de predicats de selecció amb operacions de llistes de RID, fa que NO haguem de fer mai untable scan.",
       "options": [
         {
           "letter": "A",
@@ -8312,7 +8312,7 @@
       "id": "q_382",
       "number": 382,
       "topicId": "9.2",
-      "text": "Un índex tipus arbre multi-atribut no necessàriament utilitza més espai que si indexem només el primer dels seus atributs.",
+      "text": "Un índex tipus arbre multi-atribut NO necessàriament utilitza més espai que si indexem només el primer dels seus atributs.",
       "options": [
         {
           "letter": "A",
@@ -8482,7 +8482,7 @@
       "id": "q_391",
       "number": 391,
       "topicId": "9.4",
-      "text": "L’operació de projecció sense eliminació de repetits no té cap cost associat quan la consulta té alguna altra operació.",
+      "text": "L’operació de projecció sense eliminació de repetits NO té cap cost associat quan la consulta té alguna altra operació.",
       "options": [
         {
           "letter": "A",
@@ -8644,7 +8644,7 @@
       "id": "q_400",
       "number": 400,
       "topicId": "10.2",
-      "text": "El cost de l’algorisme deRow Nested Loopsés sempre més baix si no hem d’accedir atributs de la taula interna que no siguin els del propi índex utilitzat per l’algorisme.",
+      "text": "El cost de l’algorisme deRow Nested Loopsés sempre més baix si NO hem d’accedir atributs de la taula interna que no siguin els del propi índex utilitzat per l’algorisme.",
       "options": [
         {
           "letter": "A",
@@ -8824,7 +8824,7 @@
       "id": "q_410",
       "number": 410,
       "topicId": "10.3",
-      "text": "L’algorisme deHash-joinrequereix dues passades si una de les taules no hi cap a memòria.",
+      "text": "L’algorisme deHash-joinrequereix dues passades si una de les taules NO hi cap a memòria.",
       "options": [
         {
           "letter": "A",
@@ -8842,7 +8842,7 @@
       "id": "q_411",
       "number": 411,
       "topicId": "10.3",
-      "text": "Si la taula més petita no hi cap a memòria, l’algorisme de Hash-join particiona les dues.",
+      "text": "Si la taula més petita NO hi cap a memòria, l’algorisme de Hash-join particiona les dues.",
       "options": [
         {
           "letter": "A",
@@ -8954,11 +8954,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "Row Nested Loops"
+          "text": "... Row Nested Loops"
         },
         {
           "letter": "B",
-          "text": "Block Nested Loops"
+          "text": "... Block Nested Loops"
         },
         {
           "letter": "C",
@@ -9294,7 +9294,7 @@
       "id": "q_433",
       "number": 433,
       "topicId": "11.3",
-      "text": "Un cop s’ha creat un índex tipusbitmap, es poden continuar fent insercions a la taula, però no de valors nous de l’atribut indexat.",
+      "text": "Un cop s’ha creat un índex tipusbitmap, es poden continuar fent insercions a la taula, però NO de valors nous de l’atribut indexat.",
       "options": [
         {
           "letter": "A",
@@ -9312,7 +9312,7 @@
       "id": "q_434",
       "number": 434,
       "topicId": "11.3",
-      "text": "Fer una inserció a una taula que té un índex tipusbitmapno incrementa la grandària de l’índex, tret que el valor de l’atribut corresponent no existís abans a la taula.",
+      "text": "Fer una inserció a una taula que té un índex tipus bitmap NO incrementa la grandària de l’índex, tret que el valor de l’atribut corresponent no existís abans a la taula.",
       "options": [
         {
           "letter": "A",
@@ -9330,7 +9330,7 @@
       "id": "q_435",
       "number": 435,
       "topicId": "11.3",
-      "text": "Fer una modificació (UPDATE) a una taula que té un índex tipusbitmapno incrementa la grandària de l’índex, tret que el nou valor assignat a l’atribut corresponent no existís abans a la taula.",
+      "text": "Fer una modificació (UPDATE) a una taula que té un índex tipus bitmap NO incrementa la grandària de l’índex, tret que el nou valor assignat a l’atribut corresponent no existís abans a la taula.",
       "options": [
         {
           "letter": "A",
@@ -9384,7 +9384,7 @@
       "id": "q_438",
       "number": 438,
       "topicId": "11.3",
-      "text": "¿Quin tipus d’índex és millor en cas de consultes que involucrin múltiples valors d’un atribut?",
+      "text": "¿Quin tipus d’índex és millor en cas de consultes que involucrin múltiples valors d’un atribut amb repetits?",
       "options": [
         {
           "letter": "A",
@@ -9410,7 +9410,7 @@
       "id": "q_439",
       "number": 439,
       "topicId": "11.3",
-      "text": "¿Quin tipus d’índex es millor en cas que l’atribut indexat tingui moltes repeticions?",
+      "text": "¿Quin tipus d’índex és millor en cas que l’atribut indexat tingui moltes repeticions?",
       "options": [
         {
           "letter": "A",
@@ -9472,7 +9472,7 @@
       "id": "q_442",
       "number": 442,
       "topicId": "11.3",
-      "text": "L’índex tipusbitmapno es pot utilitzar si l’atribut indexat conté valorsnull.",
+      "text": "L’índex tipus bitmap NO es pot utilitzar si l’atribut indexat conté valors null.",
       "options": [
         {
           "letter": "A",
@@ -9594,7 +9594,7 @@
       "id": "q_447",
       "number": 447,
       "topicId": "11.4",
-      "text": "¿Quina dada de les que no trobem al pla d’accés NO es rellevant per a fertuningde l’execució de les consultes?",
+      "text": "¿Quina dada de les que NO trobem al pla d’accés NO es rellevant per a fertuningde l’execució de les consultes?",
       "options": [
         {
           "letter": "A",
@@ -9660,7 +9660,7 @@
       "id": "q_450",
       "number": 450,
       "topicId": "11.4",
-      "text": "Un índex que no sigui de tipus cluster mai empitjorarà l’estimació del temps d’execució d’una consulta.",
+      "text": "Un índex que NO sigui de tipus cluster mai empitjorarà l’estimació del temps d’execució d’una consulta.",
       "options": [
         {
           "letter": "A",
@@ -9678,7 +9678,7 @@
       "id": "q_451",
       "number": 451,
       "topicId": "11.4",
-      "text": "És millor no posar índexos a les taules petites.",
+      "text": "És millor NO posar índexos a les taules petites.",
       "options": [
         {
           "letter": "A",
@@ -9696,7 +9696,7 @@
       "id": "q_452",
       "number": 452,
       "topicId": "11.4",
-      "text": "Pot ser que un índex no millori el rendiment de cap operació DML concreta, però tot i així sigui bo crear-ho des del punt de vista del rendiment del sistema.",
+      "text": "Pot ser que un índex NO millori el rendiment de cap operació DML concreta, però tot i així sigui bo crear-ho des del punt de vista del rendiment del sistema.",
       "options": [
         {
           "letter": "A",
@@ -9822,7 +9822,7 @@
       "id": "q_459",
       "number": 459,
       "topicId": "11.5",
-      "text": "Quan utilitzem l’algorisme greedy, cal calcular el temps d’execució considerant també les estructures que no hi càpiguen, perquè podem guanyar l’espai necessari per elles eliminant una altra estructura que haguem triat amb anterioritat.",
+      "text": "Quan utilitzem l’algorisme greedy, cal calcular el temps d’execució considerant també les estructures que NO hi càpiguen, perquè podem guanyar l’espai necessari per elles eliminant una altra estructura que haguem triat amb anterioritat.",
       "options": [
         {
           "letter": "A",
@@ -9888,7 +9888,7 @@
         }
       ],
       "correctLetter": "B",
-      "explicacion": "**Resum Ràpid:**  \nÉs **fals**: a **read committed** els bloquejos de lectura no es mantenen fins al final de la transacció, sinó només mentre dura cada lectura. Això permet lectures no repetibles.\n\n**Explicació Detallada:**  \nEn **read committed**, cada sentència veu només dades confirmades, però no conserva tots els bloquejos fins al `commit`. Per això una mateixa transacció pot rellegir una fila i obtenir un valor diferent si una altra transacció l’ha modificat i confirmat entremig.\n\n**Anàlisi d'opcions falses:**  \n- **A) Cert**: Incorrecta. Mantenir els bloquejos fins al final és propi de nivells més forts, com **repeatable read** o tècniques de serialització, no de **read committed**."
+      "explicacion": "**Resum Ràpid:**  \nÉs **fals**: a **read committed** els bloquejos de lectura NO es mantenen fins al final de la transacció, sinó només mentre dura cada lectura. Això permet lectures no repetibles.\n\n**Explicació Detallada:**  \nEn **read committed**, cada sentència veu només dades confirmades, però no conserva tots els bloquejos fins al `commit`. Per això una mateixa transacció pot rellegir una fila i obtenir un valor diferent si una altra transacció l’ha modificat i confirmat entremig.\n\n**Anàlisi d'opcions falses:**  \n- **A) Cert**: Incorrecta. Mantenir els bloquejos fins al final és propi de nivells més forts, com **repeatable read** o tècniques de serialització, no de **read committed**."
     },
     {
       "id": "q_463",
@@ -9956,7 +9956,7 @@
         },
         {
           "letter": "B",
-          "text": "Moment d’assignació deltimestamp"
+          "text": "Moment d’assignació del timestamp"
         },
         {
           "letter": "C",
@@ -9978,11 +9978,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "Relaxar el nivell d’a¨ ıllament"
+          "text": "Relaxar el nivell d’aïllament"
         },
         {
           "letter": "B",
-          "text": "Configurar l’interval de detecció dedeadlockadequat"
+          "text": "Configurar l’interval de detecció de deadlock adequat"
         },
         {
           "letter": "C",
@@ -9998,7 +9998,11 @@
         },
         {
           "letter": "F",
-          "text": "Assignar eltimestampel més tard possible G. Utilitzar les sentencies de DDL quan hi hagi pocs usuaris"
+          "text": "Assignar el timestamp el més tard possible"
+        },
+        {
+          "letter": "G",
+          "text": "Utilitzar les sentencies de DDL quan hi hagi pocs usuaris"
         }
       ],
       "correctLetter": "F",
@@ -10224,7 +10228,7 @@
       "id": "q_480",
       "number": 480,
       "topicId": "12.2",
-      "text": "Amb un control de concurrència multi-versió basat en bloquejos, les transaccions read-only assignen un timestamp...",
+      "text": "Amb un control de concurrència multi-versió basat en bloquejos, les transaccions read-only assignen un timestamp ...",
       "options": [
         {
           "letter": "A",
@@ -10232,15 +10236,15 @@
         },
         {
           "letter": "B",
-          "text": "En acabar la transacció"
+          "text": "... en acabar la transacció"
         },
         {
           "letter": "C",
-          "text": "En intentar accedir un grànul bloquejat"
+          "text": "... en intentar accedir un grànul bloquejat"
         },
         {
           "letter": "D",
-          "text": "A l’inici de la transacció"
+          "text": "... a l’inici de la transacció"
         }
       ],
       "correctLetter": "D",
@@ -10250,11 +10254,11 @@
       "id": "q_481",
       "number": 481,
       "topicId": "12.2",
-      "text": "Amb un control de concurrència multi-versió basat en bloquejos, les transaccions read-write assignen un timestamp...",
+      "text": "Amb un control de concurrència multi-versió basat en bloquejos, les transaccions read-write assignen un timestamp ...",
       "options": [
         {
           "letter": "A",
-          "text": "A l’inici de la transacció"
+          "text": "... a l’inici de la transacció"
         },
         {
           "letter": "B",
@@ -10262,15 +10266,15 @@
         },
         {
           "letter": "C",
-          "text": "En intentar accedir un grànul bloquejat"
+          "text": "... en intentar accedir un grànul bloquejat"
         },
         {
           "letter": "D",
-          "text": "Al fer la primera operació d’escriptura"
+          "text": "... al fer la primera operació d’escriptura"
         },
         {
           "letter": "E",
-          "text": "En acabar la transacció"
+          "text": "... en acabar la transacció"
         }
       ],
       "correctLetter": "E",
@@ -10696,7 +10700,7 @@
       "id": "q_500",
       "number": 500,
       "topicId": "12.3",
-      "text": "Si fembackupsde forma regular, no ens cal el dietari (log) per a reconstruir la base de dades.",
+      "text": "Si fembackupsde forma regular, NO ens cal el dietari (log) per a reconstruir la base de dades.",
       "options": [
         {
           "letter": "A",
@@ -10732,7 +10736,7 @@
       "id": "q_502",
       "number": 502,
       "topicId": "12.3",
-      "text": "Si configurem de forma adequada el dietari (log), no ens cal ferbackups.",
+      "text": "Si configurem de forma adequada el dietari (log), NO ens cal fer backups.",
       "options": [
         {
           "letter": "A",
@@ -10888,7 +10892,7 @@
       "id": "q_510",
       "number": 510,
       "topicId": "12.4",
-      "text": "Si concatenem (chain) dues transaccions, no s’alliberen els bloquejos de la primera fins que acaba la segona.",
+      "text": "Si concatenem (chain) dues transaccions, NO s’alliberen els bloquejos de la primera fins que acaba la segona.",
       "options": [
         {
           "letter": "A",
@@ -10906,7 +10910,7 @@
       "id": "q_511",
       "number": 511,
       "topicId": "12.4",
-      "text": "Si concatenem (chain) dues transaccions, no s’alliberen els recursos (p.e., memoria) de la primera i aquests es reutilitzen en la segona, que manté la mateixa configuració (p.e., nivell d’aïllament).",
+      "text": "Si concatenem (chain) dues transaccions, NO s’alliberen els recursos (p.e., memoria) de la primera i aquests es reutilitzen en la segona, que manté la mateixa configuració (p.e., nivell d’aïllament).",
       "options": [
         {
           "letter": "A",
@@ -10924,7 +10928,7 @@
       "id": "q_512",
       "number": 512,
       "topicId": "12.5",
-      "text": "Si totes les transaccions són prou curtes, no cal paral·lelitzar les escriptures i podem substituir el control de concurrència per un sistema de cues.",
+      "text": "Si totes les transaccions són prou curtes, NO cal paral·lelitzar les escriptures i podem substituir el control de concurrència per un sistema de cues.",
       "options": [
         {
           "letter": "A",
@@ -10942,7 +10946,7 @@
       "id": "q_513",
       "number": 513,
       "topicId": "12.5",
-      "text": "Si tenim prou memòria com per a contenir tota la base de dades, podem fer directament allà totes les operacions i no cal escriure mai al disc.",
+      "text": "Si tenim prou memòria com per a contenir tota la base de dades, podem fer directament allà totes les operacions i NO cal escriure mai al disc.",
       "options": [
         {
           "letter": "A",
