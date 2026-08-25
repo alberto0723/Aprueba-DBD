@@ -34,7 +34,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_JSON = REPO_ROOT / "data" / "questions.json"
 
 # Change this if you want to use a different OpenAI model.
-DEFAULT_MODEL = "gpt-4o-mini"
+# DEFAULT_MODEL = "gpt-4o-mini"
+# Change this if you want to use a different Gemini model.
+DEFAULT_MODEL = "gemini-3.6-flash"
 
 # ── System prompt ───────────────────────────────────────────────────────────
 SYSTEM_PROMPT = """Eres un profesor universitario experto en Diseño de Bases de Datos, concretamente de la Universitat Politècnica de Catalunya (UPC). Tu tarea es explicar a los alumnos la solución de preguntas de opción múltiple (test) de forma clara, técnica y rigurosa.
@@ -204,21 +206,26 @@ Respuesta Correcta: {question['correctLetter']}"""
 
 
 def generate_explanation(question: dict, client, model: str) -> str:
-    response = client.chat.completions.create(
+    response = client.models.generate_content(
+    # response = client.chat.completions.create(
         model=model,
-        temperature=0.0,
-        top_p=0.1,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": build_user_prompt(question)},
-        ],
+    #    temperature=0.0,
+    #    top_p=0.1,
+    #    messages=[
+    #        {"role": "system", "content": SYSTEM_PROMPT},
+    #        {"role": "user", "content": build_user_prompt(question)},
+    #    ],
+        contents=build_user_prompt(question),
+        config={"system_instruction": SYSTEM_PROMPT, "temperature": 0.0, "top_p": 0.1},
     )
-    return response.choices[0].message.content.strip()
+    return response.text.strip()
+    #return response.choices[0].message.content.strip()
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Genera explicaciones para data/questions.json usando OpenAI."
+        # description="Genera explicaciones para data/questions.json usando OpenAI."
+        description = "Genera explicaciones para data/questions.json usando Google GenAI."
     )
     parser.add_argument(
         "--all", action="store_true",
@@ -226,16 +233,21 @@ def main() -> None:
     )
     parser.add_argument("--limit", type=int, default=0, help="Procesar como máximo N preguntas.")
     parser.add_argument("--dry-run", action="store_true", help="No guardar; solo simular.")
-    parser.add_argument("--model", type=str, default=DEFAULT_MODEL, help=f"Modelo OpenAI (por defecto {DEFAULT_MODEL}).")
+    # parser.add_argument("--model", type=str, default=DEFAULT_MODEL, help=f"Modelo OpenAI (por defecto {DEFAULT_MODEL}).")
+    parser.add_argument("--model", type=str, default=DEFAULT_MODEL, help=f"Modelo Gemini (por defecto {DEFAULT_MODEL}).")
     parser.add_argument("--input", type=Path, default=DEFAULT_JSON, help="Ruta del JSON (por defecto data/questions.json).")
+#    parser.add_argument("--project", type=str, required=True, help="Google Cloud Project ID")
     args = parser.parse_args()
 
-    if not os.environ.get("OPENAI_API_KEY"):
-        print("Error: define OPENAI_API_KEY en el entorno. Ej:\n  export OPENAI_API_KEY=sk-...", file=sys.stderr)
+    # if not os.environ.get("OPENAI_API_KEY"):
+    #     print("Error: define OPENAI_API_KEY en el entorno. Ej:\n  export OPENAI_API_KEY=sk-...", file=sys.stderr)
+    if not os.environ.get("GEMINI_API_KEY"):
+        print("Error: define GEMINI_API_KEY en el entorno. Ej:\n  export GEMINI_API_KEY=AI....", file=sys.stderr)
         sys.exit(1)
 
     try:
-        from openai import OpenAI
+        # from openai import OpenAI
+        from google import genai
     except ImportError:
         print("Error: instala las dependencias: pip install -r scripts/requirements.txt", file=sys.stderr)
         sys.exit(1)
@@ -264,7 +276,8 @@ def main() -> None:
 
     print(f"Procesando {total} pregunta(s) con el modelo '{args.model}'...")
 
-    client = OpenAI()
+    # client = OpenAI()
+    client = genai.Client()
 
     progress_file = Path(str(args.input) + ".progress")
     processed: dict[str, str] = {}
