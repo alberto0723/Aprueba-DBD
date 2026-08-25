@@ -214,235 +214,241 @@
       "id": "5.4",
       "title": "Semi-structured Database Model",
       "section": "5 NOSQL",
-      "sortOrder": 35
+      "sortOrder": 36
     },
     {
       "id": "5.5",
       "title": "JSON Data Type",
       "section": "5 NOSQL",
-      "sortOrder": 36
+      "sortOrder": 37
+    },
+    {
+      "id": "5.6",
+      "title": "Managing Large Arrays",
+      "section": "5 NOSQL",
+      "sortOrder": 35
     },
     {
       "id": "6.1",
       "title": "View Definition and Problems",
       "section": "6 Views",
-      "sortOrder": 37
+      "sortOrder": 38
     },
     {
       "id": "6.2",
       "title": "View Expansion",
       "section": "6 Views",
-      "sortOrder": 38
+      "sortOrder": 39
     },
     {
       "id": "6.3",
       "title": "Update Through Views",
       "section": "6 Views",
-      "sortOrder": 39
+      "sortOrder": 40
     },
     {
       "id": "6.4",
       "title": "View Updating",
       "section": "6 Views",
-      "sortOrder": 40
+      "sortOrder": 41
     },
     {
       "id": "6.5",
       "title": "Query Rewriting",
       "section": "6 Views",
-      "sortOrder": 41
+      "sortOrder": 42
     },
     {
       "id": "6.6",
       "title": "Materialized View Selection",
       "section": "6 Views",
-      "sortOrder": 42
+      "sortOrder": 43
     },
     {
       "id": "6.7",
       "title": "Example of Materialize View Selection",
       "section": "6 Views",
-      "sortOrder": 43
+      "sortOrder": 44
     },
     {
       "id": "7.2",
       "title": "Catalog",
       "section": "7 Physical Design",
-      "sortOrder": 44
+      "sortOrder": 45
     },
     {
       "id": "7.3",
       "title": "Access Structures",
       "section": "7 Physical Design",
-      "sortOrder": 45
+      "sortOrder": 46
     },
     {
       "id": "7.4",
       "title": "Size of Structures",
       "section": "7 Physical Design",
-      "sortOrder": 46
+      "sortOrder": 47
     },
     {
       "id": "7.5",
       "title": "Access Costs",
       "section": "7 Physical Design",
-      "sortOrder": 47
+      "sortOrder": 48
     },
     {
       "id": "7.6",
       "title": "Index Choice",
       "section": "7 Physical Design",
-      "sortOrder": 48
+      "sortOrder": 49
     },
     {
       "id": "8.1",
       "title": "Optimization Phases",
       "section": "8 Query Optimization Phases: Semantic, Syntactic and Physical",
-      "sortOrder": 49
+      "sortOrder": 50
     },
     {
       "id": "8.2",
       "title": "Semantic Optimization",
       "section": "8 Query Optimization Phases: Semantic, Syntactic and Physical",
-      "sortOrder": 50
+      "sortOrder": 51
     },
     {
       "id": "8.3",
       "title": "Syntactic Optimization",
       "section": "8 Query Optimization Phases: Semantic, Syntactic and Physical",
-      "sortOrder": 51
+      "sortOrder": 52
     },
     {
       "id": "8.4",
       "title": "Equivalence Rules",
       "section": "8 Query Optimization Phases: Semantic, Syntactic and Physical",
-      "sortOrder": 52
+      "sortOrder": 53
     },
     {
       "id": "8.5",
       "title": "Physical Optimization",
       "section": "8 Query Optimization Phases: Semantic, Syntactic and Physical",
-      "sortOrder": 53
+      "sortOrder": 54
     },
     {
       "id": "9.1",
       "title": "Intermediate Results",
       "section": "9 Query Optimization Costs: Selection, Sorting and Projection",
-      "sortOrder": 54
+      "sortOrder": 55
     },
     {
       "id": "9.2",
       "title": "Selection",
       "section": "9 Query Optimization Costs: Selection, Sorting and Projection",
-      "sortOrder": 55
+      "sortOrder": 56
     },
     {
       "id": "9.3",
       "title": "Sorting",
       "section": "9 Query Optimization Costs: Selection, Sorting and Projection",
-      "sortOrder": 56
+      "sortOrder": 57
     },
     {
       "id": "9.4",
       "title": "Projection",
       "section": "9 Query Optimization Costs: Selection, Sorting and Projection",
-      "sortOrder": 57
+      "sortOrder": 58
     },
     {
       "id": "10.1",
       "title": "Clustered Structure",
       "section": "10 Query Optimization Costs: Join",
-      "sortOrder": 58
+      "sortOrder": 59
     },
     {
       "id": "10.2",
       "title": "Nested Loops",
       "section": "10 Query Optimization Costs: Join",
-      "sortOrder": 59
+      "sortOrder": 60
     },
     {
       "id": "10.3",
       "title": "Hash-Join",
       "section": "10 Query Optimization Costs: Join",
-      "sortOrder": 60
+      "sortOrder": 61
     },
     {
       "id": "10.4",
       "title": "Sort-Match",
       "section": "10 Query Optimization Costs: Join",
-      "sortOrder": 61
+      "sortOrder": 62
     },
     {
       "id": "10.5",
       "title": "Pipelining",
       "section": "10 Query Optimization Costs: Join",
-      "sortOrder": 62
+      "sortOrder": 63
     },
     {
       "id": "11.1",
       "title": "Tablespaces",
       "section": "11 Parametrization and Tuning",
-      "sortOrder": 63
+      "sortOrder": 64
     },
     {
       "id": "11.2",
       "title": "Parameters",
       "section": "11 Parametrization and Tuning",
-      "sortOrder": 64
+      "sortOrder": 65
     },
     {
       "id": "11.3",
       "title": "Bitmap Indexes",
       "section": "11 Parametrization and Tuning",
-      "sortOrder": 65
+      "sortOrder": 66
     },
     {
       "id": "11.4",
       "title": "Tuning",
       "section": "11 Parametrization and Tuning",
-      "sortOrder": 66
+      "sortOrder": 67
     },
     {
       "id": "11.5",
       "title": "Example of Index Selection",
       "section": "11 Parametrization and Tuning",
-      "sortOrder": 67
+      "sortOrder": 68
     },
     {
       "id": "12.1",
       "title": "Isolation",
       "section": "12 Transactions",
-      "sortOrder": 68
+      "sortOrder": 69
     },
     {
       "id": "12.2",
       "title": "Multi-version Concurrency Control",
       "section": "12 Transactions",
-      "sortOrder": 69
+      "sortOrder": 70
     },
     {
       "id": "12.3",
       "title": "Atomicity and Durability",
       "section": "12 Transactions",
-      "sortOrder": 70
+      "sortOrder": 71
     },
     {
       "id": "12.4",
       "title": "Transaction Chopping",
       "section": "12 Transactions",
-      "sortOrder": 71
+      "sortOrder": 72
     },
     {
       "id": "12.5",
       "title": "Alternative Transaction Manager Architectures",
       "section": "12 Transactions",
-      "sortOrder": 72
+      "sortOrder": 73
     },
     {
       "id": "7.1",
       "title": "7.1",
       "section": "7 ",
-      "sortOrder": 73
+      "sortOrder": 74
     }
   ],
   "questions": [
@@ -7124,7 +7130,7 @@
       "id": "q_320",
       "number": 320,
       "topicId": "8.2",
-      "text": "L’optimització semàntica pot fer més curta la clàusulaWHERE.",
+      "text": "L’optimització semàntica pot fer més curta la clàusula WHERE.",
       "options": [
         {
           "letter": "A",
@@ -7142,7 +7148,7 @@
       "id": "q_321",
       "number": 321,
       "topicId": "8.2",
-      "text": "L’optimització semàntica pot fer més llarga la clàusulaWHERE.",
+      "text": "L’optimització semàntica pot fer més llarga la clàusula WHERE.",
       "options": [
         {
           "letter": "A",
@@ -10995,6 +11001,122 @@
       ],
       "correctLetter": "B",
       "explicacion": "**Resum Ràpid**  \nÉs fals perquè l'optimització semàntica aplica regles lògiques i restriccions d'integritat conegudes, però no garanteix trobar la reescriptura òptima absoluta per a qualsevol consulta a causa de les limitacions de les heurístiques utilitzades.\n\n**Explicació Detallada**  \nL'optimització semàntica simplifica la consulta transformant-la segons la lògica i les restriccions de la BD (com eliminar predicats impossibles). Tanmateix, només pot aplicar un conjunt finit de regles i no explora totes les equivalències possibles. Per tant, tot i que redueix el cost, no es pot afirmat de forma absoluta que trobi *sempre* la millor reescriptura possible.\n\n**Anàlisi d'opcions falses**  \n* **A) Cert**: És incorrecte perquè cap fase de l'optimitzador garanteix trobar la millor reescriptura en el 100% dels casos, ja que l'espai de cerca pot ser intractable i es basa en heurístiques."
+    },
+    {
+      "id": "q_516",
+      "number": 516,
+      "topicId": "5.6",
+      "text": "Els embeddings requereixen un tipus de dades especial per que ocupen molt d'espai.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cert"
+        },
+        {
+          "letter": "B",
+          "text": "Fals"
+        }
+      ],
+      "correctLetter": "B",
+      "explicacion": "**Resum Ràpid**\nEls *embeddings* no necessiten un tipus de dada exclusiu per emmagatzemar-se; estructuralment són vectors de nombres reals que es poden guardar mitjançant tipus de dades existents com *arrays* o JSONB.\n\n**Explicació Detallada**\nUn *embedding* és un vector numèric d'alta dimensió. Les bases de dades relacionals i semiestructurades permeten emmagatzemar-los utilitzant estructures anidades ja disponibles (com els *arrays* de PostgreSQL o documents JSON/JSONB). La necessitat d'extensions especialitzades (com `pgvector`) no ve donada per l'espai que ocupen, sinó per la necessitat d'eficiència en la cerca per similitud mitjançant índexs vectorials específics.\n\n**Anàlisi d'opcions falses**\n- **A) Cert:** Incorrecte. Els tipus de dades natius per a estructures anidades (*arrays* o JSON) són suficients per emmagatzemar aquests vectors sense requerir tipus especials."
+    },
+    {
+      "id": "q_517",
+      "number": 517,
+      "topicId": "5.6",
+      "text": "Els embeddings sempre es generen en un servei al Cloud, per que requereixen xarxes neuronals molt complexes.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cert"
+        },
+        {
+          "letter": "B",
+          "text": "Fals"
+        }
+      ],
+      "correctLetter": "B",
+      "explicacion": "**Resum Ràpid**\nÉs fals perquè els embeddings no s'han de generar obligatòriament al Cloud; es poden calcular localment utilitzant models d'IA optimitzats.\n\n**Explicació Detallada**\nTot i que molts serveis al Cloud ofereixen APIs per a generar embeddings amb xarxes neuronals complexes, no és un requisit indispensable. Existeixen models d'aprenentatge profund lleugers (com *SentenceTransformers* o eines tipus *Ollama/ONNX*) dissenyats per executar-se en local (*on-premise*) de forma eficient.\n\n**Anàlisi d'opcions falses**\n* **A) Cert:** És incorrecta perquè l'ús del mot \"sempre\" és fals; la generació local d'embeddings és una pràctica habitual i tècnicament viable."
+    },
+    {
+      "id": "q_518",
+      "number": 518,
+      "topicId": "5.6",
+      "text": "Només podem calcular distàncies entre vectors o arrays utilitzant extensions del SGBD com ara PGvector.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cert"
+        },
+        {
+          "letter": "B",
+          "text": "Fals"
+        }
+      ],
+      "correctLetter": "B",
+      "explicacion": "**Resum Ràpid**\nÉs fals perquè es poden calcular distàncies entre arrays de forma nativa mitjançant operadors i funcions SQL o PL/pgSQL, sense dependre obligatòriament d'extensions externes.\n\n**Explicació Detallada**\nTot i que extensions com `pgvector` aporten tipus de dades optimitzats i índexs especialitzats per a cerques de similitud vectorial massives, el càlcul matemàtic d'una distància (ex. euclidiana o cosinus) es pot implementar directament usant les funcions nàtives de manipulació d'arrays que ja ofereixen SGBD com PostgreSQL.\n\n**Anàlisi d'opcions falses**\n* **A) Cert:** És incorrecta perquè nega l'existència de mecanismes natius al SGBD per operar amb arrays i calcular-ne distàncies sense mòduls addicionals."
+    },
+    {
+      "id": "q_519",
+      "number": 519,
+      "topicId": "5.6",
+      "text": "Utilitzant l'extensió PGvector, podem indexar atributs tipus vector amb un arbre B+ com qualsevol altre atribut.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cert"
+        },
+        {
+          "letter": "B",
+          "text": "Fals"
+        }
+      ],
+      "correctLetter": "B",
+      "explicacion": "**Resum Ràpid**  \nEls arbres B+ només funcionen amb dades unidimensionals que tenen un ordre total lineal. Per a vectors d'alta dimensió, PGvector requereix índexs d'aproximació espacial com IVFFlat o HNSW per fer cerques de similitud eficients.\n\n**Explicació Detallada**  \nEls atributs de tipus vector no es poden ordenar de manera lineal (com faria un arbre B+ amb valors numèrics o text). Per fer cerques per proximitat o similitud (distància cosinus, euclidiana, etc.) en espais multidimensionals, l'extensió `pgvector` utilitza algorismes d'indexació específics com IVFFlat (Inverted File Flat) o HNSW (Hierarchical Navigable Small World), no pas arbres B+.\n\n**Anàlisi d'opcions falses**  \n* **Cert**: És incorrecte perquè intentar aplicar un arbre B+ a vectors multidimensionals no té sentit estructural ni permet realitzar cerques per similitud espacial."
+    },
+    {
+      "id": "q_520",
+      "number": 520,
+      "topicId": "5.6",
+      "text": "¿Quin és el significat de RAG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Relational Aggregation Graph"
+        },
+        {
+          "letter": "B",
+          "text": "Redundant Archival Garbage"
+        },
+        {
+          "letter": "C",
+          "text": "Replication Ack Gateway"
+        },
+        {
+          "letter": "D",
+          "text": "Retrieval Augmented Generation"
+        }
+      ],
+      "correctLetter": "D",
+      "explicacion": "**Resum Ràpid**\nRAG significa *Retrieval-Augmented Generation*, una tècnica que cerca dades en una font externa (com una base de dades) per enriquir el context dels models de llenguatge generatius.\n\n**Explicació Detallada**\nEn l'àmbit de les bases de dades modernes i la IA, RAG (*Retrieval-Augmented Generation*) permet combinar la recuperació d'informació rellevant d'una base de dades (sovint vectorial) amb la generació de text, garantint respostes precises, actualitzades i fonamentades.\n\n**Anàlisi d'opcions falses**\n- **A, B i C:** Són combinacions de conceptes tècnics inventades que no corresponen a cap acrònim o estàndard de la disciplina."
+    },
+    {
+      "id": "q_521",
+      "number": 521,
+      "topicId": "5.6",
+      "text": "El problema més important d'utilitzar un sistema d'emmagatzemament específic per vectors (en comptes d'una extensió d'un SGBD relacional) apareix quan tenim consultes híbrides que requereixen accedir-los els dos.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cert"
+        },
+        {
+          "letter": "B",
+          "text": "Fals"
+        }
+      ],
+      "correctLetter": "A",
+      "explicacion": "**Resum Ràpid**\nCert. Tenir un sistema vectorial separat complica les consultes híbrides (similitud vectorial + filtres relacionals) en haver de coordinar dos motors de dades diferents.\n\n**Explicació Detallada**\nLes BD vectorials pures no gestionen eficientment les metadades relacionals. En consultes híbrides, cal consultar dos sistemes independents, augmentant la latència, la complexitat de l'aplicació i perdent la consistència ACID unificada. Les extensions en SGBD relacionals ho resolen integrant ambdós tipus d'accés en un sol motor i optimitzador.\n\n**Anàlisi d'opcions falses**\n- **B) Fals**: És incorrecta; la ineficiència i complexitat en gestionar consultes híbrides entre dos sistemes és, precisament, el principal desavantatge d'aquesta arquitectura."
     }
   ]
 }
